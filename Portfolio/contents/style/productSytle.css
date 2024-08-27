@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+html{
+    font-size: 100%;
+    font-family:"Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+}
+
+body{
+    background-color: white;
+}
+
+h1 {
+    color: black;
+    text-align: left;
+}
+
+article{
+    text-align: center;
+}
+
+p{
+    font-size: 18px;  
+}
+
+footer{
+    align-items: flex-end;
+    text-align: right;
+}
+
+#copyright{
+    font-size: 10px;
+}
