@@ -5,7 +5,7 @@ html {
     font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
 }
 
-.Header{
+.Header {
     position: fixed;
 }
 
@@ -22,7 +22,7 @@ h1 {
     text-align: left;
 }
 
-a{
+a {
     background-color: white;
     color: black;
 }
