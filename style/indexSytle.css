@@ -9,6 +9,9 @@ html {
 
 body {
     background-image: url(../img/22099727_m.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
     overflow: hidden;
 }
 

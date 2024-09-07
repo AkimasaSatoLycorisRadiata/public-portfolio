@@ -14,6 +14,7 @@ body {
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
     height: 100%;
 }
 
@@ -32,8 +33,24 @@ h2 {
     text-align: center;
 }
 
+.include-accordion ul {
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style: none;
+    transition: .5s;
+    margin: 0;
+}
+
+.accordionBtn {
+    display: block;
+    margin: auto;
+    background: transparent;
+    font-size: 30px;
+}
+
 table {
-    width: 75%;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
     text-align: left;
@@ -55,15 +72,8 @@ table th {
     text-align: center;
 }
 
-#identity {
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: left;
-}
-
 #content {
-    font-size: 18px;
+    font-size: 15px;
     text-align: left;
 }
 
