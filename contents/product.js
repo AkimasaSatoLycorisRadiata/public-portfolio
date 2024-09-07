@@ -1,4 +1,4 @@
-/*メインコンテンツのフェードイン*/
+// メインコンテンツのフェードイン
 var fade_in = document.getElementById("fade-in");
 
 fade_in.parentElement.opacity = "0";
