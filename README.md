@@ -1,3 +1,3 @@
 ポートフォリオ公開用
 
-https://akimasasatolycorisradiata.github.io/portfolio/index.html
+https://akimasasatolycorisradiata.github.io/public-portfolio/index.html
