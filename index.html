@@ -1,35 +1,56 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <title>Home</title>
-    <meta name="description" content="佐藤アキマサPortfolio main">
-    <link rel="stylesheet" href="./style/indexStyle.css">
-</head>
-<body>
-    <header>
-        <div class="header_inner">
-            <h1>佐藤アキマサ</h1>
-            <nav class="links">
-                <ul>
-                    <li><a class="link-text" href="./contents/profile.html">Profile</a></li>
-                    <li><a class="link-text" href="./contents/product.html">Product</a></li>
-                </ul>
-            </nav>
+    <head>
+        <meta charset="UTF-8">
+        <title>佐藤アキマサ｜SESエンジニア</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="佐藤アキマサの名刺代わりの自己紹介ページ。SESエンジニア8年目。">
+        <link rel="stylesheet" href="./style/indexStyle.css">
+    </head>
+    <body>
+        <div id="fade-in">
+            <header>
+                <h1>佐藤アキマサ</h1>
+                <p>
+                    <strong>SESエンジニア（8年目）</strong>
+                </p>
+                <nav aria-label="メインナビゲーション">
+                    <ul class="main-nav">
+                        <li>
+                            <a href="./index.html">ホーム</a>
+                        </li>
+                        <li>
+                            <a href="./profile/profile.html">プロフィール</a>
+                        </li>
+                        <li>
+                            <a href="./product/product.html">Product</a>
+                        </li>
+                    </ul>
+                </nav>
+            </header>
+            <main>
+                <section>
+                    <h2>ごあいさつ</h2>
+                    <p>このページは名刺代わりの簡易自己紹介ページです。詳しい経歴・スキルはプロフィールをご確認ください。</p>
+                </section>
+                <section>
+                    <h2>Contact</h2>
+                    <ul>
+                        <li>
+                            <a href="mailto:example@example.com">example@example.com</a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/AkimasaSatoLycorisRadiata" target="_blank" rel="noopener">GitHub</a>
+                        </li>
+                    </ul>
+                </section>
+            </main>
         </div>
-    </header>
-    <div id="fade-in">
-        <main>
-            <article>
-                <div class="contents-frame">
-                    <p id="contents-text">札幌在住、SES上がりのしがない底辺エンジニアのろくでもないポートフォリオ</p>
-                </div>
-            </article>
-        </main>
-    </div>
-    <script src="./index.js"></script>
-    <footer>
-        <p id="copyright">© 2024 Akimasa Sato Lycoris Radiata by GitHub</p>
-    </footer>
-</body>
+        <footer>
+            <p>© 2025 AkimasaSatoLycorisRadiata |
+                <a href="https://github.com/AkimasaSatoLycorisRadiata" target="_blank" rel="noopener">GitHub</a>
+            </p>
+        </footer>
+        <script src="./index.js"></script>
+    </body>
 </html>

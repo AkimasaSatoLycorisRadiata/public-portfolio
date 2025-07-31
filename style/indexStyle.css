@@ -1,68 +1,74 @@
 @charset "UTF-8";
 
 html {
-    font-size: 100%;
-    font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
-    color: white;
-    overflow: hidden; /* ページ全体のスクロール制限に注意 */
+  font-size: 100%;
+  font-family: "Yu Gothic", "游ゴシック", YuGothic, "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+  color: #222;
+  background-color: #fff;
 }
 
 body {
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    overflow: hidden; /* 必要性を確認 */
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#fade-in {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+header {
+  padding: 1rem;
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #ccc;
 }
 
 h1 {
-    text-align: left;
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.main-nav {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+}
+
+.main-nav a {
+  background: #fff;
+  color: #000;
+  border: 1px solid #000;
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.main-nav a:hover {
+  background: #000;
+  color: #fff;
+}
+
+main {
+  flex: 1;
+  padding: 1.5rem;
 }
 
 a {
-    background-color: white;
-    color: black;
-    text-decoration: none;
-    transition: background-color 0.3s, color 0.3s;
-}
-
-a:hover,
-a:focus {
-    background-color: black;
-    color: white;
-}
-
-.contents-frame {
-    background-attachment: fixed; /* モバイルでのパフォーマンス注意 */
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#contents-text {
-    position: absolute;
-    font-size: 18px;
-    color: #fff;
-    font-weight: bold;
+  background-color: white;
+  color: black;
+  padding: 0.25em 0.5em;
+  text-decoration: none;
 }
 
 footer {
-    position: fixed;
-    text-align: right;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 35px;
-    background-color: black;
-    /* align-items: flex-end; 削除（flexコンテナでないため無効） */
-}
-
-#copyright {
-    font-size: 10px;
-    color: white;
+  text-align: right;
+  padding: 0.5rem 1rem;
+  font-size: 0.8rem;
+  background-color: #000;
+  color: #fff;
+  position: relative;
 }
