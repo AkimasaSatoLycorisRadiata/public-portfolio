@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const fadeInElem = document.getElementById("fade-in");
-  if (fadeInElem) {
-    fadeInElem.style.opacity = "1";
+  const fadeInElement = document.getElementById("fade-in");
+  if (fadeInElement) {
+    fadeInElement.style.opacity = "1";
   }
 });

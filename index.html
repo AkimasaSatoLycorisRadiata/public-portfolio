@@ -3,7 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <title>佐藤アキマサ｜SESエンジニア</title>
-        <meta name="description" content="佐藤アキマサの名刺代わりの自己紹介ページ。SESエンジニア8年目。詳細は別ページで。">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="佐藤アキマサの名刺代わりの自己紹介ページ。SESエンジニア8年目。">
         <link rel="stylesheet" href="./style/indexStyle.css">
     </head>
     <body>
@@ -13,38 +14,43 @@
                 <p>
                     <strong>SESエンジニア（8年目）</strong>
                 </p>
+                <nav aria-label="メインナビゲーション">
+                    <ul class="main-nav">
+                        <li>
+                            <a href="./index.html">ホーム</a>
+                        </li>
+                        <li>
+                            <a href="./profile/profile.html">プロフィール</a>
+                        </li>
+                        <li>
+                            <a href="./product/product.html">成果物紹介</a>
+                        </li>
+                    </ul>
+                </nav>
             </header>
             <main>
-                <section aria-label="自己紹介">
+                <section>
                     <h2>ごあいさつ</h2>
-                    <p>
-                        このページは名刺代わりの簡易自己紹介ページです。詳しい経歴・スキルは
-                        <a href="./contents/profile.html">プロフィールページ</a>
-                        をご覧ください。
-                    </p>
+                    <p>このページは名刺代わりの簡易自己紹介ページです。詳しい経歴・スキルはプロフィールをご確認ください。</p>
                 </section>
-                <section aria-label="連絡先">
+                <section>
                     <h2>Contact</h2>
-                    <p>ご連絡は下記の連絡先までお願いいたします。</p>
                     <ul>
                         <li>
                             <a href="mailto:example@example.com">example@example.com</a>
                         </li>
                         <li>
-                            <a href="https://github.com/AkimasaSatoLycorisRadiata" target="_blank" rel="noopener noreferrer">GitHub</a>
+                            <a href="https://github.com/AkimasaSatoLycorisRadiata" target="_blank" rel="noopener">GitHub</a>
                         </li>
                     </ul>
                 </section>
             </main>
         </div>
-        <div id="footer">
-            <footer>
-                <p>
-                    © 2025 AkimasaSatoLycorisRadiata |
-                    <a href="https://github.com/AkimasaSatoLycorisRadiata" target="_blank" rel="noopener noreferrer">GitHub</a>
-                </p>
-            </footer>
-        </div>
+        <footer>
+            <p>© 2025 AkimasaSatoLycorisRadiata |
+                <a href="https://github.com/AkimasaSatoLycorisRadiata" target="_blank" rel="noopener">GitHub</a>
+            </p>
+        </footer>
         <script src="./index.js"></script>
     </body>
 </html>
