@@ -44,9 +44,10 @@ main {
 
 /* リンク */
 a {
-  color: #0050aa;
+  background-color: white;
+  color: black;
+  padding: 0.25em 0.5em;
   text-decoration: none;
-  transition: color 0.2s, background-color 0.2s;
 }
 
 a:hover,
@@ -71,4 +72,5 @@ footer {
   font-size: 0.8rem;
   background-color: #000;
   color: #fff;
+  position: relative;
 }

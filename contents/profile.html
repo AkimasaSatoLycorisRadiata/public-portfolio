@@ -4,175 +4,137 @@
         <meta charset="UTF-8">
         <title>Profile</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href=".\style\profileSytle.css">
+        <link rel="stylesheet" href="./style/profileStyle.css">
     </head>
     <body>
         <header>
             <h1>Profile</h1>
-            <a id="link-text" href="..\index.html">Back</a>
+            <a id="link-text" href="../index.html">Back</a>
         </header>
         <main>
             <article>
-                <section id="identity-section">
-                    <ul class="include-accordion scroll-control">
-                        <button class="accordionBtn" id="identity" type="button">Identity/自己紹介</button>
-                        <ul>
-                            <li>
-                                <table border="1">
-                                    <tr>
-                                        <td>Name</td>
-                                        <td>佐藤アキマサ</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Birthday</td>
-                                        <td>1995/11/30</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Birthplace</td>
-                                        <td>秋田県</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Current Address</td>
-                                        <td>北海道札幌市</td>
-                                    </tr>
-                                </table>
-                            </li>
-                        </ul>
-                    </ul>
+                <!-- 自己紹介 -->
+                <section class="accordion-container">
+                    <button class="accordionBtn" type="button">Identity / 自己紹介</button>
+                    <div class="accordion-content" aria-hidden="true">
+                        <table border="1">
+                            <tbody>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>佐藤アキマサ</td>
+                                </tr>
+                                <tr>
+                                    <td>Birthday</td>
+                                    <td>1995/11/30</td>
+                                </tr>
+                                <tr>
+                                    <td>Birthplace</td>
+                                    <td>秋田県</td>
+                                </tr>
+                                <tr>
+                                    <td>Current Address</td>
+                                    <td>北海道札幌市</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </section>
-                <section id="career-section">
-                    <ul class="include-accordion scroll-control">
-                        <button class="accordionBtn" id="career" type="button">Career/経歴</button>
-                        <ul>
-                            <table border="1">
+                <!-- 経歴 -->
+                <section class="accordion-container">
+                    <button class="accordionBtn" type="button">Career / 経歴</button>
+                    <div class="accordion-content" aria-hidden="true">
+                        <table>
+                            <thead>
                                 <tr>
-                                    <th>年</th>
-                                    <th>参画プロジェクト</th>
-                                    <th>参画期間</th>
-                                    <th>キャリア内容</th>
+                                    <th>期間</th>
+                                    <th>職務内容</th>
+                                    <th>備考</th>
                                 </tr>
+                            </thead>
+                            <tbody>
                                 <tr>
-                                    <td rowspan="2">2018</td>
-                                    <th id="event" colspan="3">大学を卒業し、新卒採用で札幌拠点のSES企業に入社</th>
-                                </tr>
-                                <tr>
-                                    <th id="projects">陸上自衛隊向け補給システム開発</th>
                                     <td>2018/06～2019/03</td>
-                                    <td id="content">
-                                        <li>新卒OJTでの参画</li>
-                                        <li>陸上自衛隊向け補給システムのWebアプリケーション開発に参画</li>
-                                        <li>参画初期はテスタ/デバッカとして参画</li>
-                                        <li>1画面分の作成から単体テストを担当(FE: HTML , JavaScript BE: Java DB: Oracle Database)</li>
-                                        <li>2018年11月以降は、システム操作手順書作成や納品物(タブレット端末など)の品質管理を担当</li>
+                                    <td>陸上自衛隊向け補給システム開発
+                                        <br>
+                                        <small>新卒OJT、HTML/JS/Java/Oracle</small>
                                     </td>
+                                    <td>テスト・デバッグ〜手順書作成、品質管理</td>
                                 </tr>
                                 <tr>
-                                    <td>2019</td>
-                                    <th id="projects">行政向けシステム開発</th>
                                     <td>2019/04～2019/12</td>
-                                    <td id="content">
-                                        <li>4月に新しい現場への転属</li>
-                                        <li>北海道内のIT企業の中では人気企業のパッケージ開発に参画</li>
-                                        <li>平成から令和への改元時期だったため、夏までの間元号対応に従事</li>
-                                        <li>夏以降は、Windowsアプリケーション開発に参画</li>
-                                        <li>詳細設計から結合テストまで担当</li>
+                                    <td>行政向けシステム開発
+                                        <br>
+                                        <small>元号対応、Winアプリ、詳細設計〜結合テスト</small>
                                     </td>
+                                    <td>改元対応経験あり</td>
                                 </tr>
                                 <tr>
-                                    <td rowspan="3">2020</td>
-                                    <th id="projects">官公庁向けシステム開発</th>
                                     <td>2020/01～2020/04</td>
-                                    <td id="career">
-                                        <li>テスタメインで参画</li>
-                                        <li>製造作業は自動作成ツールを用いて作業したため、実質コーディング作業なし</li>
-                                        <li>新型コロナウイルス(Covid-19)蔓延によるバイオハザードに伴い4カ月でプロジェクト終了</li>
-                                    </td>
+                                    <td>官公庁向け業務システム（テスト専任）</td>
+                                    <td>コロナにより打ち切り</td>
                                 </tr>
                                 <tr>
-                                    <th id="projects">電気自動車充電器登録管理システムの保守運用</th>
                                     <td>2020/05～2021/02</td>
-                                    <td id="career">
-                                        <li>Webアプリケーションの保守運用と機能改修を担当</li>
-                                        <li>ユーザ(主に法人顧客)からの不具合報告の解析と改修(画面/PG/データ)及びリリースを実施</li>
-                                        <li>リモート環境の運用見直しによるAzureのセッティングも担当</li>
+                                    <td>EV充電器管理システム保守・改修
+                                        <br>
+                                        <small>不具合対応、Azure設定</small>
                                     </td>
+                                    <td>リモート対応強化</td>
                                 </tr>
                                 <tr>
-                                    <th id="projects">第一次転職活動</th>
-                                    <td>2020/08～2021/02</td>
-                                    <td id="career">
-                                        <li>最初の転職活動をこの年の夏から実施</li>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td rowspan="4">2021</td>
-                                    <th id="projects">法人向けドライブレコーダー情報管理システムの改修作業</th>
                                     <td>2021/03</td>
-                                    <td id="career">
-                                        <li>ドライブレコーダーの映像データのSaas管理用アプリケーションの改修作業</li>
-                                        <li>退職時期と重なったため1か月間の参画</li>
-                                    </td>
+                                    <td>ドライブレコーダー情報管理アプリ改修</td>
+                                    <td>1ヶ月短期</td>
                                 </tr>
                                 <tr>
-                                    <th id="event" colspan="3">そして、相も変わらずSES業界内で転職</th>
-                                </tr>
-                                <tr>
-                                    <th id="projects">大学向け就学支援システム開発</th>
                                     <td>2021/04～2021/07</td>
-                                    <td id="career">
-                                        <li>Webアプリケーション開発</li>
-                                        <li>詳細設計メインに参画</li>
+                                    <td>大学向け就学支援システム開発
+                                        <br>
+                                        <small>Webアプリ、詳細設計</small>
                                     </td>
+                                    <td>-</td>
                                 </tr>
                                 <tr>
-                                    <th id="projects">公的機関向け旅費精算システム開発</th>
                                     <td>2021/08～2022/01</td>
-                                    <td id="career">
-                                        <li>Webアプリケーション開発</li>
-                                        <li>詳細設計から結合テストまで担当</li>
-                                        <li>製造では画面およびPG双方の製造を担当</li>
+                                    <td>旅費精算システム開発
+                                        <br>
+                                        <small>詳細設計〜結合テスト</small>
                                     </td>
+                                    <td>-</td>
                                 </tr>
                                 <tr>
-                                    <td>2022</td>
-                                    <th id="projects">半導体製造装置システム改修</th>
                                     <td>2022/02～2023/03</td>
-                                    <td id="career">
-                                        <li>Windowsアプリケーション開発(半導体製造装置のリモート操作用アプリケーション開発)</li>
-                                        <li>主にテスト設計(結合テスト/出荷前テスト/負荷・探索的テスト)を担当</li>
+                                    <td>半導体製造装置操作アプリ開発
+                                        <br>
+                                        <small>Winアプリ、テスト設計中心</small>
                                     </td>
+                                    <td>探索的テスト経験</td>
                                 </tr>
                                 <tr>
-                                    <td>2023</td>
-                                    <th id="projects">アウトレットモールECサイト開発</th>
                                     <td>2023/04～2023/12</td>
-                                    <td id="career">
-                                        <li>Webアプリケーション開発(BE側)</li>
-                                        <li>詳細設計から結合テストまで担当</li>
-                                    </td>
+                                    <td>アウトレットECサイト開発（BE）</td>
+                                    <td>詳細設計〜結合テスト</td>
                                 </tr>
                                 <tr>
-                                    <td rowspan="2">2024</td>
-                                    <th id="projects">自動車組み込みシステム開発</th>
-                                    <td>2024/01～</td>
-                                    <td id="career">
-                                        <li>2024年1月から6月まで、ADAS(先進運転支援システム)のテスト設計/実施を担当</li>
-                                        <li>2024年6月から車内環境設定(BEV向け)システム開発のプロジェクトに配置換えで参画</li>
-                                        <li>2024年7月末現在までに要件定義から詳細設計まで担当</li>
-                                        <li>2024年8月よりRustでの本格的なコーディング作業を開始</li>
+                                    <td>2024/01～2025/04</td>
+                                    <td>自動車組込システム開発（Rust）
+                                        <br>
+                                        <small>ADASテスト → BEV向け要件定義〜実装</small>
                                     </td>
+                                    <td>Rust本格着手（2024年8月〜2025年4月）</td>
                                 </tr>
-                                <th id="event" colspan="3">そして現在に至る。</th>
-                            </table>
-                        </ul>
-                    </section>
-                </ul>
-                <script src="profile.js"></script>
-            </ul>
-        </article>
-    </main>
-    <footer>
-        <p id="copyright">© 2024 AkimasaSatoLycorisRadiata by GitHub</p>
-    </footer>
-</body>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+            </article>
+        </main>
+        <footer>
+            <p>
+                © 2025 AkimasaSatoLycorisRadiata |
+                <a href="https://github.com/AkimasaSatoLycorisRadiata" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </p>
+        </footer>
+        <script src="./profile.js"></script>
+    </body>
 </html>

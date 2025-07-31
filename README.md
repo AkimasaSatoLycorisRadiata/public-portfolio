@@ -1,60 +1,53 @@
-# 佐藤アキマサ ポートフォリオサイト
+# 公開ポートフォリオ（佐藤アキマサ）
 
-このリポジトリは、SESエンジニア「佐藤アキマサ」の名刺代わりの自己紹介ページを公開するためのものです。
+このリポジトリは、SESエンジニア 佐藤アキマサ の簡易ポートフォリオサイトです。
 
-## 公開URL
+## 🔗 公開URL
 
 [https://akimasasatolycorisradiata.github.io/public-portfolio/index.html](https://akimasasatolycorisradiata.github.io/public-portfolio/index.html)
 
 ---
 
-## フォルダ構成
+## 📂 フォルダ構成
 public-portfolio
-├── index.html
+├── index.html # トップページ
+├── index.js # トップページ用JS（フェードイン等）
 ├── /style
-│ └── indexStyle.css
-└── README.md
+│ └── indexStyle.css # トップページ用CSS
+├── /contents
+│ ├── profile.html # プロフィール詳細ページ
+│ ├── profile.js # アコーディオンなどの動作JS
+│ └── /style
+│ └── profileStyle.css # プロフィールページ用CSS
+└── README.md # このファイル
 
-## ファイル説明
-
-- `index.html`
-名刺代わりの簡易自己紹介ページのHTMLファイル
-
-- `/style/indexStyle.css`
-ページのスタイル定義ファイル
-
-- `README.md`
-このドキュメント
 
 ---
 
-## 使用技術
+## 💬 概要
 
-- HTML5
-- CSS3
-
----
-
-## ライセンス
-
-本リポジトリ内のソースコードは特に指定がない限りMITライセンスに準拠しています。
-画像や外部リソースは商用フリーのものを使用しています。
+- **自己紹介**、**職務経歴** を簡易的に紹介
+- Java, VB.NET, JavaScript, PHP, React など幅広い実務経験
+- 軽量・画像不使用で著作権処理の簡略化
 
 ---
 
-## 注意事項
+## ⚙️ 技術要素
 
-- 個人情報保護のため、メールアドレスは仮のものを掲載しています。
-- 連絡先などは変更の可能性がありますので、最新情報はGitHubプロフィール等をご確認ください。
-
----
-
-## 今後の予定
-
-- プロフィール詳細ページの追加
-- レスポンシブデザイン対応の強化
-- ポートフォリオ内容の拡充
+- HTML/CSS/JS のみで構成（ビルド不要）
+- GitHub Pages 対応済み
+- レスポンシブ対応予定
 
 ---
 
-ご意見・ご要望などはGitHubのIssuesまでお気軽にどうぞ。
+## ⚠️ 注意事項
+
+- 本リポジトリでは画像等の著作物は一切使用していません。
+- 公開目的以外の使用・流用はご遠慮ください。
+
+---
+
+## 📧 連絡先
+
+- GitHub: [@AkimasaSatoLycorisRadiata](https://github.com/AkimasaSatoLycorisRadiata)
+- Mail: 
