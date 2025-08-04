@@ -8,20 +8,18 @@
 
 ---
 
-## 📂 フォルダ構成
-public-portfolio
-├── index.html # トップページ
-├── index.js # トップページ用JS（フェードイン等）
-├── /style
-│ └── indexStyle.css # トップページ用CSS
-├── /contents
-│ ├── profile.html # プロフィール詳細ページ
-│ ├── profile.js # アコーディオンなどの動作JS
-│ └── /style
-│ └── profileStyle.css # プロフィールページ用CSS
+## 📂 フォルダ構成<br>
+public-portfolio<br>
+├── index.html # トップページ<br>
+├── index.js # トップページ用JS（フェードイン等）<br>
+├── /style<br>
+│ └── indexStyle.css # トップページ用CSS<br>
+├── /contents<br>
+│ ├── profile.html # プロフィール詳細ページ<br>
+│ ├── profile.js # アコーディオンなどの動作JS<br>
+│ └── /style<br>
+│ └── profileStyle.css # プロフィールページ用CSS<br>
 └── README.md # このファイル
-
-
 ---
 
 ## 💬 概要
