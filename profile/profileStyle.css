@@ -113,10 +113,15 @@ dt {
     width: auto;
 }
 
+dt::after {
+    content: "：";
+    margin-right: 0.1rem;
+}
+
 dd {
     display: inline-block;
-    margin: 0 0.5rem 0.5rem 0.5rem;
-    text-align: right;
+    margin: 0 1rem 0.5rem 0;
+    text-align: center;
 }
 
 footer {
