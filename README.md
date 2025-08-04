@@ -13,19 +13,22 @@ public-portfolio<br>
 ├── index.html # トップページ<br>
 ├── index.js # トップページ用JS（フェードイン等）<br>
 ├── /style<br>
-│ └── indexStyle.css # トップページ用CSS<br>
-├── /contents<br>
-│ ├── profile.html # プロフィール詳細ページ<br>
-│ ├── profile.js # アコーディオンなどの動作JS<br>
-│ └── /style<br>
-│ └── profileStyle.css # プロフィールページ用CSS<br>
-└── README.md # このファイル
+│   └── indexStyle.css # トップページ用CSS<br>
+├── /profile<br>
+│   ├── profile.html # プロフィール詳細ページ<br>
+│   ├── profile.js # アコーディオンなどの動作JS<br>
+│   └── profileStyle.css # プロフィールページ用CSS<br>
+├── /product # productページ<br>
+│   ├── product.html # product詳細ページ<br>
+│   ├── product.js # product詳細ページ用JS（フェードイン等）<br>
+│   └── productStyle.css # product詳細ページ用CSS<br>
+└── README.md
 ---
 
 ## 💬 概要
 
 - **自己紹介**、**職務経歴** を簡易的に紹介
-- Java, VB.NET, JavaScript, PHP, React など幅広い実務経験
+- Java, VB.NET, JavaScript, C# など幅広い実務経験
 - 軽量・画像不使用で著作権処理の簡略化
 
 ---
