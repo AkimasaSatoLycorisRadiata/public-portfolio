@@ -102,6 +102,28 @@ th {
     text-align: left;
 }
 
+/* 定義リストスタイル */
+dl {
+    margin: 0 0 1rem 0;
+}
+
+dt {
+    font-weight: bold;
+    display: inline-block;
+    width: auto;
+}
+
+dt::after {
+    content: "：";
+    margin-right: 0.1rem;
+}
+
+dd {
+    display: inline-block;
+    margin: 0 1rem 0.5rem 0;
+    text-align: center;
+}
+
 footer {
     text-align: right;
     padding: 0.5rem 1rem;
